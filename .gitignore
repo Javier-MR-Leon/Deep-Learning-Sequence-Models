@@ -1,0 +1,23 @@
+# Entornos Virtuales
+venv/
+env/
+.venv/
+
+# Cachés de Python y Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Datos locales y Modelos. Evita subir los datasets descargados y pesos pesados
+*.csv
+*.zip
+*.h5
+*.keras
+*.pth
+data/
+
+# Archivos del SO y Editores
+.DS_Store
+.vscode/
+.idea/
